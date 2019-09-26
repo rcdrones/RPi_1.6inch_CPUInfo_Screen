@@ -19,7 +19,6 @@ BL* 为背光开关控制引脚。需要在液晶屏幕背后把跳线焊盘进�
 
 ```
 #安装python库
-
 sudo apt-get install python-pip python-dev build-essential   
 
 sudo pip install RPi.GPIO
@@ -27,11 +26,8 @@ sudo pip install RPi.GPIO
 
 ```
 #下载测试demo软件
-
 git clone https://github.com/adafruit/Adafruit_Nokia_LCD.git
-
 cd Adafruit_Nokia_LCD
-
 sudo python setup.py install
 ```
 
